@@ -1,0 +1,29 @@
+filename,width_px,height_px,category,recommended_use
+logo_pixel_rentals.png,520,175,logo,Main header logo; natural size for 1200px content layout
+square_box_1_taped_note.png,320,320,square box,"Small note/card, deal, quote, store rule"
+square_box_2_yellow_frame.png,320,320,square box,"Small note/card, featured item"
+square_box_3_star_frame.png,320,320,square box,Louder featured note or promotion
+long_box_1_wavy.png,900,200,long box,Wide section label / announcement
+long_box_2_frame.png,900,280,long box,Wide content frame / hero strip
+long_box_3_ribbon.png,900,230,long box,Wide handwritten title/banner
+large_border_1_starburst.png,1100,820,large border,Large fixed section border; near full 1200px content width
+large_border_2_note.png,900,900,large border,Large fixed square-ish section border
+large_border_3_taped.png,900,820,large border,Large fixed note-style section border
+arrow_1.png,200,105,arrow,Straight right arrow
+arrow_2.png,145,155,arrow,Curved down arrow
+arrow_3.png,175,155,arrow,Looping down arrow
+face_1.png,150,150,face,Happy face
+face_2.png,150,150,face,Dollar-eyes face
+face_3.png,150,150,face,Surprised face
+card_frame_1.png,260,360,card frame,Game card / image frame
+card_frame_2.png,260,360,card frame,Game card / image frame
+card_frame_3.png,260,360,card frame,Game card / image frame
+divider_wavy.png,700,120,divider,Section divider
+eyes_looking_down.png,180,110,doodle,Place above content to look downward
+dollar_face.png,160,160,face,Prices / deals
+wow_face.png,170,170,sticker,New release / highlight
+employee_pick.png,300,225,badge,Employee Pick section
+new_this_week.png,320,240,badge,New This Week heading
+arrow_wide_extra.png,220,110,arrow,Extra wide arrow
+arrow_curved_extra.png,150,150,arrow,Extra curved arrow
+doodle_sticker_sheet.png,500,375,sticker sheet,Optional extra doodles; use as a sheet or crop manually
