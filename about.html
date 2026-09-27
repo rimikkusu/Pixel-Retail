@@ -1,246 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>About &amp; Reservations | Pixel Rentals</title>
-    </head>
-    <body class="about-page">
-        <div class="site-shell" id="top">
-            <header class="site-header">
-                <div class="brand-row">
-                    <h1><img src="images/drawings/logo_pixel_rentals.png" alt="Pixel Rentals" loading="eager"></h1>
-                    <div class="brand-note">
-                        <img src="images/drawings/face_1.png" alt="" class="brand-face">
-                        <p><strong>YOUR WEEKEND STARTS HERE.</strong><br>Open since 1996. Ask what is back today.</p>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn why Pixel Vault celebrates classic games and suggest a title for the archive.">
+    <title>About — Pixel Vault</title>
+    <link rel="icon" href="images/pixel-art/Logo_PixelVault.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-background">
+    <div class="edge-left" aria-hidden="true"></div>
+    <div class="edge-right" aria-hidden="true"></div>
+    <div class="page-shell">
+
+    <!-- Header -->
+    <header class="site-header container">
+        <a class="brand" href="index.html" aria-label="Pixel Vault home">
+            <img class="pixel-art brand-logo" src="images/pixel-art/Logo_PixelVault.png" width="256" height="128" alt="Pixel Vault handmade logo">
+            <span>Classic games.<br>Preserved forever.</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a class="active" href="about.html" aria-current="page">About</a>
+        </nav>
+    </header>
+
+    <main id="main" class="container inner-page">
+        <!-- Page introduction -->
+        <section class="page-hero" aria-labelledby="page-title">
+            <div>
+                <p class="eyebrow">PLAY <span>•</span> PRESERVE <span>•</span> REMEMBER</p>
+                <h1 id="page-title">ABOUT PIXEL VAULT</h1>
+                <p>A student-made corner of the internet for the games, artwork, and ideas that shaped how we play.</p>
+            </div>
+            <div class="page-badge">
+                <img class="pixel-art" src="images/pixel-art/Box_1 128x128.png" width="128" height="128" alt="">
+                <span>♥<small>GAMES</small></span>
+            </div>
+        </section>
+
+        <!-- Why this project exists -->
+        <section class="section" aria-labelledby="story-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">✦</span><h2 id="story-title">WHAT IS PIXEL VAULT?</h2><img class="pixel-art line-art" src="images/pixel-art/Line_1 128x64.png" width="128" height="64" alt=""></div>
+            <div class="about-columns">
+                <article class="about-panel">
+                    <h3>THE IDEA</h3>
+                    <p>Pixel Vault is a small digital archive of classic games. Each cover, release year, and platform is an invitation to remember where a favorite genre began or discover something new.</p>
+                    <p>It is a front-end school project built with HTML and CSS. The handmade logo, frames, lines, and arrows helped shape the site from the start.</p>
+                </article>
+                <article class="about-panel">
+                    <h3>WHY THIS THEME?</h3>
+                    <p>Games combine art, music, storytelling, and technology. A pixel-art world felt like the right setting for a collection that celebrates all four.</p>
+                    <ul>
+                        <li>Explore memorable games across several systems.</li>
+                        <li>See original covers beside project pixel artwork.</li>
+                        <li>Keep a simple, readable record of gaming history.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Glossary -->
+        <section class="section" aria-labelledby="glossary-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">▣</span><h2 id="glossary-title">GAMING GLOSSARY</h2><img class="pixel-art line-art" src="images/pixel-art/Line_2 128x64.png" width="128" height="64" alt=""></div>
+            <dl class="glossary">
+                <div><dt>FPS</dt><dd>First-person shooter: the world is seen through the character's eyes.</dd></div>
+                <div><dt>RPG</dt><dd>Role-playing game: characters grow through a story and its choices.</dd></div>
+                <div><dt>NPC</dt><dd>Non-player character: a character controlled by the game.</dd></div>
+                <div><dt>Platformer</dt><dd>A game focused on movement and navigating levels.</dd></div>
+            </dl>
+        </section>
+
+        <!-- HTML media examples -->
+        <section class="section" aria-labelledby="media-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">♪</span><h2 id="media-title">SIGHTS &amp; SOUNDS</h2><img class="pixel-art line-art" src="images/pixel-art/Line_3 128x64.png" width="128" height="64" alt=""></div>
+            <div class="media-grid">
+                <article class="about-panel"><h3>GAMEPLAY CLIP</h3><video controls preload="metadata" poster="ArtWork/2.jpg"><source src="media/video/minecraft-gameplay.webm" type="video/webm">Your browser does not support video playback.</video><p>A short Creative Commons gameplay example shows how native HTML video works.</p></article>
+                <article class="about-panel"><h3>PIXEL VAULT THEME</h3><p>Listen to the original chiptune made for this project.</p><audio controls preload="metadata"><source src="media/audio/pixel-vault-theme.wav" type="audio/wav">Your browser does not support audio playback.</audio></article>
+            </div>
+        </section>
+
+        <!-- Demo suggestion form -->
+        <section class="section form-section" aria-labelledby="suggest-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">★</span><h2 id="suggest-title">SUGGEST A GAME</h2><img class="pixel-art line-art" src="images/pixel-art/Line_1 128x64.png" width="128" height="64" alt=""></div>
+            <form action="about.html#form-note" method="get">
+                <p id="form-note">This form demonstrates HTML fields only. Suggestions are not saved or sent.</p>
+                <div class="form-grid">
+                    <label for="visitor-name">Your name<input id="visitor-name" name="name" type="text" autocomplete="name" required></label>
+                    <label for="visitor-email">Email<input id="visitor-email" name="email" type="email" autocomplete="email" required></label>
+                    <label for="game-title">Game title<input id="game-title" name="game" type="text" required></label>
+                    <label for="game-platform">Platform<select id="game-platform" name="platform" required><option value="">Choose a platform</option><option>PlayStation</option><option>PlayStation 2</option><option>Xbox</option><option>PC</option><option>Nintendo 64</option><option>SNES</option><option>Other</option></select></label>
+                    <label class="full" for="game-reason">Why should we archive it?<textarea id="game-reason" name="reason" rows="5" required></textarea></label>
                 </div>
-                <nav class="store-nav" aria-label="Main navigation">
-                    <img src="images/drawings/long_box_1_wavy.png" alt="">
-                    <div class="nav-links">
-                        <a href="index.html">Home</a>
-                        <a href="games.html">Games</a>
-                        <a href="about.html">About</a>
-                    </div>
-                    <img src="images/drawings/arrow_curved_extra.png" alt="" class="nav-arrow">
-                </nav>
-            </header>
+                <button class="art-button" type="submit"><img class="pixel-art button-frame" src="images/pixel-art/Box_1_Narrow 256x128.png" width="256" height="128" alt=""><span>SEND DEMO</span><img class="pixel-art button-arrow" src="images/pixel-art/Arrow_1 128x128.png" width="128" height="128" alt=""></button>
+            </form>
+        </section>
 
-            <main>
-                <!-- The story and practical information share one page. -->
-                <section class="about-intro">
-                    <div>
-                        <h2>About Pixel Rentals</h2>
-                        <p>Pixel Rentals opened in 1996 as a neighborhood video and game rental shop. It began with a small counter and a few favorite systems. Today we keep classic games ready for another round.</p>
-                        <h3>Our Crew</h3>
-                        <ul>
-                            <li>Pat — owner and movie expert</li>
-                            <li>Tony — game counter specialist</li>
-                            <li>Sam — keeps N64 controllers untangled</li>
-                        </ul>
-                        <p>Ask us what is back on the shelf today.</p>
-                    </div>
-                    <img src="images/drawings/employee_pick.png" alt="" loading="lazy">
-                </section>
+        <!-- Credits -->
+        <details class="credits">
+            <summary>Artwork and media credits</summary>
+            <p>The Pixel Vault logo, handmade background, box frames, decorative lines, arrows, pixel-art game covers, and featured pixel scenes were supplied for this project. Classic cover images are small reference images used for this educational archive.</p>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Silent_Hill_2">Silent Hill 2</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_III">Grand Theft Auto III</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Halo:_Combat_Evolved">Halo: Combat Evolved</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Max_Payne_(video_game)">Max Payne</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)">Metal Gear Solid</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time">Ocarina of Time</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Chrono_Trigger">Chrono Trigger</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Need_for_Speed:_Underground_2">Underground 2</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Half-Life_2">Half-Life 2</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Resident_Evil_4">Resident Evil 4</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Final_Fantasy_X">Final Fantasy X</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Shadow_of_the_Colossus">Shadow of the Colossus</a></li>
+                <li><a href="https://www.stardewvalley.net/about/">Stardew Valley game information</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:Minecraft_Gameplay.webm">Minecraft gameplay clip</a> (CC BY 3.0)</li>
+            </ul>
+        </details>
+    </main>
 
-                <section class="about-facts">
-                    <div>
-                        <table>
-                            <caption>Counter staff directory</caption>
-                            <thead>
-                                <tr>
-                                    <th scope="col">Team</th>
-                                    <th scope="col">Staff member</th>
-                                    <th scope="col">Favorite job</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="rowgroup" rowspan="3">Pixel Rentals</th>
-                                    <td>Pat</td>
-                                    <td>Helping movie fans</td>
-                                </tr>
-                                <tr>
-                                    <td>Tony</td>
-                                    <td>Recommending games</td>
-                                </tr>
-                                <tr>
-                                    <td>Sam</td>
-                                    <td>Untangling controllers</td>
-                                </tr>
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="3">Ask any team member for a game recommendation.</td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                    </div>
-                    <div>
-                        <h3>Store hours</h3>
-                        <table border="1" cellpadding="5">
-                            <caption>Opening hours</caption>
-                            <thead>
-                                <tr>
-                                    <th>Day</th>
-                                    <th>Opening</th>
-                                    <th>Closing</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>Mon–Thu</th>
-                                    <td>10:00 AM</td>
-                                    <td>8:00 PM</td>
-                                </tr>
-                                <tr>
-                                    <th>Fri–Sat</th>
-                                    <td>10:00 AM</td>
-                                    <td>10:00 PM</td>
-                                </tr>
-                                <tr>
-                                    <th>Sunday</th>
-                                    <td>12:00 PM</td>
-                                    <td>6:00 PM</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <section class="about-facts">
-                    <div>
-                        <h3>Store rules</h3>
-                        <ul>
-                            <li>Membership card required.</li>
-                            <li>Return games by closing on the due date.</li>
-                            <li>Late fee: $1.00 per day.</li>
-                            <li>Please do not blow into cartridges!</li>
-                        </ul>
-                        <p>Please rewind VHS tapes before returning them. Memory card saves are your responsibility, so back them up if you can.</p>
-                        <p>Learn more about age ratings at the <a href="https://www.esrb.org/">ESRB website</a>.</p>
-                    </div>
-                    <div>
-                        <h3>Contact</h3>
-                        <address>Pixel Rentals<br>42 Cartridge Lane<br>Springfield, USA<br>Phone: (555) 010-1996<br>Email: <a href="mailto:hello@pixelrentals.example">hello@pixelrentals.example</a></address>
-                        <p><small>This store and its contact details are fictional.</small></p>
-                        <h3>Quick game glossary</h3>
-                        <dl>
-                            <dt><strong>FPS</strong></dt>
-                            <dd>First-Person Shooter</dd>
-                            <dt><strong>RPG</strong></dt>
-                            <dd>Role-Playing Game</dd>
-                            <dt><strong>NPC</strong></dt>
-                            <dd>Non-Player Character</dd>
-                        </dl>
-                    </div>
-                </section>
-
-                <!-- A school-project form: it does not send a reservation to the store. -->
-                <section id="reservation" class="reservation">
-                    <div class="section-heading">
-                        <h2>Try a reservation</h2>
-                        <img src="images/drawings/arrow_3.png" alt="">
-                    </div>
-                    <p>This is a form demo. It does not reserve a copy. In the store, call (555) 010-1996 to ask what is available.</p>
-                    <form action="#reservation" method="get">
-                        <fieldset>
-                            <legend>Your contact details</legend>
-                            <p><label for="name">Name:</label><br><input id="name" name="name" type="text"></p>
-                            <p><label for="email">Email:</label><br><input id="email" name="email" type="email"></p>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Choose your rental</legend>
-                            <p>
-                                <label for="game">Game:</label>
-                                <br>
-                                <select id="game" name="game">
-                                        <option>Resident Evil 2</option>
-                                        <option>Metal Gear Solid</option>
-                                        <option>Tekken 3</option>
-                                        <option>Final Fantasy VII</option>
-                                        <option>Silent Hill 2</option>
-                                        <option>Grand Theft Auto III</option>
-                                        <option>Gran Turismo 3: A-Spec</option>
-                                        <option>Super Mario 64</option>
-                                        <option>GoldenEye 007</option>
-                                        <option>Sonic Adventure 2</option>
-                                        <option>Tony Hawk’s Pro Skater 2</option>
-                                        <option>Halo: Combat Evolved</option>
-                                        <option>Max Payne</option>
-                                        <option>Diablo II</option>
-                                    </select>
-                            </p>
-                            <p>
-                                <label for="console">Console:</label>
-                                <br>
-                                <select id="console" name="console">
-                                    <option>PlayStation</option>
-                                    <option>PlayStation 2</option>
-                                    <option>Nintendo 64</option>
-                                    <option>Dreamcast</option>
-                                    <option>Xbox</option>
-                                    <option>PC</option>
-                                </select>
-                            </p>
-                            <p>Rental period:</p>
-                            <input type="radio" id="one" name="period" value="1">
-                            <label for="one">1 day</label>
-                            <br>
-                            <input type="radio" id="three" name="period" value="3" checked>
-                            <label for="three">3 days</label>
-                            <br>
-                            <input type="radio" id="seven" name="period" value="7">
-                            <label for="seven">7 days</label>
-                            <p><label for="pickup">Pickup date:</label><br><input id="pickup" name="pickup" type="date"></p>
-                            <input type="checkbox" id="member" name="member">
-                            <label for="member"> I have a membership card</label>
-                            <p><label for="notes">Notes for staff:</label><br><textarea id="notes" name="notes" rows="4" cols="40"></textarea></p>
-                        </fieldset>
-                        <p><button class="button" type="submit">Try the form</button> <button class="button" type="reset">Clear form</button></p>
-                    </form>
-                </section>
-
-                <!-- The audio is a small original tune; video waits for a student-made clip. -->
-                <section id="media" class="media-corner">
-                    <div class="section-heading">
-                        <h2>Media corner</h2>
-                        <img src="images/drawings/face_3.png" alt="">
-                    </div>
-                    <div class="media-pair">
-                        <div>
-                            <h3>Video demo space</h3>
-                            <p>Our own game clip can go here later. For now, the poster shows the GTA III shelf pick.</p>
-                            <video controls preload="none" poster="images/screenshots/gta3.jpg">
-                                Your browser does not support the video element.
-                            </video>
-                        </div>
-                        <div>
-                            <h3>Pixel Rentals jukebox</h3>
-                            <p>A short original arcade-style tune.</p>
-                            <audio controls preload="none">
-                                <source src="media/audio/pixel-rentals-jingle.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
-                            <p>Pat says the door bell is too loud. Nobody has fixed it yet.</p>
-                        </div>
-                    </div>
-                </section>
-            </main>
-
-            <!-- These drawings sit in the purple margins and cross the page edge. -->
-            <img class="margin-doodle margin-right margin-about-face" src="images/drawings/eyes_looking_down.png" alt="">
-            <img class="margin-doodle margin-left margin-about-arrow" src="images/drawings/arrow_wide_extra.png" alt="">
-            <img class="margin-doodle margin-right margin-about-scribble" src="images/drawings/divider_wavy.png" alt="">
-
-            <footer>
-                <img src="images/drawings/divider_wavy.png" alt="" loading="lazy">
-                <p><strong>PIXEL RENTALS</strong> — Games out. Good times in.</p>
-                <p><a href="index.html">Home</a> · <a href="games.html">Games</a> · <a href="about.html">About &amp; reservations</a></p>
-                <p><small>© Pixel Rentals · A fictional neighborhood rental store</small></p>
-                <p><a href="#top">Back to top ↑</a></p>
-            </footer>
-        </div>
-    </body>
+    <!-- Footer -->
+    <footer class="site-footer"><div class="container footer-inner">
+        <a class="footer-brand" href="index.html" aria-label="Pixel Vault home"><img class="pixel-art" src="images/pixel-art/Logo_PixelVault.png" width="256" height="128" alt="Pixel Vault logo"></a>
+        <p>Classic games. Preserved forever.<br><small>School HTML &amp; CSS project.</small></p>
+        <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="games.html">Games</a><a href="about.html">About</a></nav>
+    </div></footer>
+    </div>
+    </div>
+</body>
 </html>

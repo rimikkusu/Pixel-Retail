@@ -1,210 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Home | Pixel Rentals</title>
-    </head>
-    <body class="home-page">
-        <div class="site-shell" id="top">
-            <header class="site-header">
-                <div class="brand-row">
-                    <h1><img src="images/drawings/logo_pixel_rentals.png" alt="Pixel Rentals" loading="eager"></h1>
-                    <div class="brand-note">
-                        <img src="images/drawings/face_1.png" alt="" class="brand-face">
-                        <p><strong>YOUR WEEKEND STARTS HERE.</strong><br>Open since 1996. Ask what is back today.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore classic games at Pixel Vault, a student-made archive.">
+    <title>Pixel Vault — Classic games. Preserved forever.</title>
+    <link rel="icon" href="images/pixel-art/Logo_PixelVault.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-background">
+    <div class="edge-left" aria-hidden="true"></div>
+    <div class="edge-right" aria-hidden="true"></div>
+    <div class="page-shell">
+
+    <!-- Header -->
+    <header class="site-header container">
+        <a class="brand" href="index.html" aria-label="Pixel Vault home">
+            <img class="pixel-art brand-logo" src="images/pixel-art/Logo_PixelVault.png" width="256" height="128" alt="Pixel Vault handmade logo">
+            <span>Classic games.<br>Preserved forever.</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a class="active" href="index.html" aria-current="page">Home</a>
+            <a href="games.html">Games</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main id="main" class="container">
+        <!-- Hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-text">
+                <p class="eyebrow">PLAY <span>•</span> PRESERVE <span>•</span> REMEMBER</p>
+                <h1 id="hero-title">CLASSIC GAMES.<br><em>PRESERVED FOREVER.</em></h1>
+                <p>Pixel Vault is a digital archive of classic games from PlayStation, Xbox, Nintendo, PC and more. Explore the games that shaped a generation.</p>
+                <a class="art-button" href="games.html">
+                    <img class="pixel-art button-frame" src="images/pixel-art/Box_1_Narrow 256x128.png" width="256" height="128" alt="">
+                    <span>EXPLORE GAMES</span>
+                    <img class="pixel-art button-arrow" src="images/pixel-art/Arrow_1 128x128.png" width="128" height="128" alt="">
+                </a>
+            </div>
+            <div class="hero-image">
+                <img class="pixel-art" src="ArtWork/2.jpg" width="800" height="450" alt="Pixel-art village with a traveler walking through its streets">
+                <div class="hero-badge" aria-label="A handmade archive">
+                    <img class="pixel-art" src="images/pixel-art/Box_3 128x128.png" width="128" height="128" alt="">
+                    <span>THE<br>VAULT</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured games -->
+        <section class="section" aria-labelledby="featured-title">
+            <div class="section-heading">
+                <span class="heading-star" aria-hidden="true">★</span>
+                <h2 id="featured-title">FEATURED CLASSICS</h2>
+                <img class="pixel-art line-art" src="images/pixel-art/Line_1 128x64.png" width="128" height="64" alt="">
+                <a class="section-more" href="games.html#archive">ALL GAMES <img class="pixel-art inline-arrow" src="images/pixel-art/Arrow_4_Small128x128.png" width="128" height="128" alt=""></a>
+            </div>
+            <div class="featured-games">
+                <article class="game-card">
+                    <img class="game-cover" src="images/games/silent-hill-2.jpg" width="263" height="379" alt="Silent Hill 2 cover art" loading="lazy">
+                    <h3>Silent Hill 2</h3>
+                    <p class="game-meta"><span class="tag">PS2</span><span>2001</span></p>
+                    <p class="genre">Survival horror</p>
+                    <a class="text-link" href="games.html#silent-hill-2">VIEW GAME <img class="pixel-art inline-arrow" src="images/pixel-art/Arrow_4_Small128x128.png" width="128" height="128" alt=""></a>
+                </article>
+                <article class="game-card">
+                    <img class="game-cover" src="images/games/grand-theft-auto-iii.jpg" width="280" height="362" alt="Grand Theft Auto III cover art" loading="lazy">
+                    <h3>Grand Theft Auto III</h3>
+                    <p class="game-meta"><span class="tag">PS2</span><span>2001</span></p>
+                    <p class="genre">Action · open world</p>
+                    <a class="text-link" href="games.html#grand-theft-auto-iii">VIEW GAME <img class="pixel-art inline-arrow" src="images/pixel-art/Arrow_4_Small128x128.png" width="128" height="128" alt=""></a>
+                </article>
+                <article class="game-card">
+                    <img class="game-cover" src="images/games/halo-combat-evolved.jpg" width="272" height="366" alt="Halo: Combat Evolved cover art" loading="lazy">
+                    <h3>Halo: Combat Evolved</h3>
+                    <p class="game-meta"><span class="tag tag-olive">Xbox</span><span>2001</span></p>
+                    <p class="genre">First-person shooter</p>
+                    <a class="text-link" href="games.html#halo-combat-evolved">VIEW GAME <img class="pixel-art inline-arrow" src="images/pixel-art/Arrow_4_Small128x128.png" width="128" height="128" alt=""></a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Browse by system -->
+        <section class="section" aria-labelledby="systems-title">
+            <div class="section-heading">
+                <span class="heading-star" aria-hidden="true">✣</span>
+                <h2 id="systems-title">BROWSE BY SYSTEM</h2>
+                <img class="pixel-art line-art" src="images/pixel-art/Line_2 128x64.png" width="128" height="64" alt="">
+                <a class="section-more" href="games.html#systems">ALL SYSTEMS <img class="pixel-art inline-arrow" src="images/pixel-art/Arrow_4_Small128x128.png" width="128" height="128" alt=""></a>
+            </div>
+            <div class="system-list">
+                <a class="system-card system-blue" href="games.html#playstation"><img class="pixel-art system-frame" src="images/pixel-art/Box_1 128x128.png" width="128" height="128" alt=""><span class="system-symbol">PS</span><strong>PlayStation</strong><small>THE ORIGINAL ERA</small><img class="pixel-art system-arrow" src="images/pixel-art/Arrow_1 128x128.png" width="128" height="128" alt=""></a>
+                <a class="system-card system-orange" href="games.html#ps2"><img class="pixel-art system-frame" src="images/pixel-art/Box_2 128x128.png" width="128" height="128" alt=""><span class="system-symbol">2</span><strong>PlayStation 2</strong><small>A GENERATION OF ICONS</small><img class="pixel-art system-arrow" src="images/pixel-art/Arrow_2 128x128.png" width="128" height="128" alt=""></a>
+                <a class="system-card system-olive" href="games.html#xbox"><img class="pixel-art system-frame" src="images/pixel-art/Box_3 128x128.png" width="128" height="128" alt=""><span class="system-symbol">X</span><strong>Xbox</strong><small>NEW WORLDS TO EXPLORE</small><img class="pixel-art system-arrow" src="images/pixel-art/Arrow_3 128x128.png" width="128" height="128" alt=""></a>
+                <a class="system-card system-sea" href="games.html#pc"><img class="pixel-art system-frame" src="images/pixel-art/Box_2 128x128.png" width="128" height="128" alt=""><span class="system-symbol">▣</span><strong>PC</strong><small>ENDLESS POSSIBILITIES</small><img class="pixel-art system-arrow" src="images/pixel-art/Arrow_1 128x128.png" width="128" height="128" alt=""></a>
+            </div>
+        </section>
+
+        <!-- Vault pick -->
+        <section class="section" aria-labelledby="pick-heading">
+            <div class="section-heading">
+                <span class="heading-star" aria-hidden="true">♛</span>
+                <h2 id="pick-heading">THIS WEEK'S VAULT PICK</h2>
+                <img class="pixel-art line-art" src="images/pixel-art/Line_3 128x64.png" width="128" height="64" alt="">
+            </div>
+            <article class="vault-pick">
+                <div class="pick-content">
+                    <img class="pixel-art pick-cover" src="images/games/images.jpg" width="480" height="640" alt="Stardew Valley pixel-art cover" loading="lazy">
+                    <div class="pick-text">
+                        <p class="eyebrow">PIXEL-ART PICK · 2016</p>
+                        <h3>Stardew Valley</h3>
+                        <p class="game-meta"><span class="tag tag-sea">PC</span><span>2016</span></p>
+                        <p class="genre">Farming · country-life RPG</p>
+                        <p>Build a farm, meet a town, and find your own rhythm in a warm pixel world.</p>
+                        <a class="art-button" href="games.html#stardew-valley"><img class="pixel-art button-frame" src="images/pixel-art/Box_2_Narrow 256x128.png" width="256" height="128" alt=""><span>VIEW GAME</span><img class="pixel-art button-arrow" src="images/pixel-art/Arrow_2 128x128.png" width="128" height="128" alt=""></a>
                     </div>
                 </div>
-                <nav class="store-nav" aria-label="Main navigation">
-                    <img src="images/drawings/long_box_1_wavy.png" alt="">
-                    <div class="nav-links">
-                        <a href="index.html">Home</a>
-                        <a href="games.html">Games</a>
-                        <a href="about.html">About</a>
-                    </div>
-                    <img src="images/drawings/arrow_curved_extra.png" alt="" class="nav-arrow">
-                </nav>
-            </header>
+                <img class="pixel-art pick-scene" src="ArtWork/3.gif" width="1400" height="788" alt="Animated pixel-art lakeside village" loading="lazy">
+            </article>
+        </section>
 
-            <main>
-                <!-- Welcome and featured rentals -->
-                <section class="hero">
-                    <div class="drawing-frame">
-                        <img src="images/drawings/long_box_2_frame.png" alt="">
-                        <h2>Games for the weekend.</h2>
-                    </div>
-                    <div class="hero-intro">
-                        <p>Pick a game. Bring it back when you're done. Ask what's on the shelf today.</p>
-                        <div class="hero-action">
-                            <img src="images/drawings/arrow_1.png" alt="">
-                            <a class="button button-cyan" href="games.html">Browse games →</a>
-                        </div>
-                    </div>
-                </section>
+        <!-- Top games -->
+        <section class="section top-games" aria-labelledby="top-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">★</span><h2 id="top-title">TOP 5 CLASSIC GAMES</h2><img class="pixel-art line-art" src="images/pixel-art/Line_1 128x64.png" width="128" height="64" alt=""></div>
+            <ol class="top-list">
+                <li><a href="games.html#silent-hill-2"><strong>Silent Hill 2</strong><span>PS2</span><time datetime="2001">2001</time></a></li>
+                <li><a href="games.html#halo-combat-evolved"><strong>Halo: Combat Evolved</strong><span>Xbox</span><time datetime="2001">2001</time></a></li>
+                <li><a href="games.html#grand-theft-auto-iii"><strong>Grand Theft Auto III</strong><span>PS2</span><time datetime="2001">2001</time></a></li>
+                <li><a href="games.html#max-payne"><strong>Max Payne</strong><span>PC</span><time datetime="2001">2001</time></a></li>
+                <li><a href="games.html#metal-gear-solid"><strong>Metal Gear Solid</strong><span>PS1</span><time datetime="1998">1998</time></a></li>
+            </ol>
+        </section>
 
-                <!-- New arrivals are on the homepage now. -->
-                <section id="new" class="home-section">
-                    <div class="section-intro">
-                        <img src="images/drawings/new_this_week.png" alt="">
-                        <div class="section-copy">
-                            <h2>Fresh arrivals</h2>
-                            <p>Just back from the returns desk. Ask us to hold a copy at the counter.</p>
-                        </div>
-                        <img src="images/drawings/eyes_looking_down.png" alt="">
-                    </div>
-                    <div class="cover-row">
-                        <article class="cover-card">
-                            <a href="games.html#note-gta-3"><img class="game-cover" src="images/games/GTA3boxcover.jpg" alt="Grand Theft Auto III cover art" loading="eager"></a>
-                            <h3>Grand Theft Auto III</h3>
-                            <p class="game-meta">PlayStation 2 · 2001</p>
-                            <p class="shelf-status">On the shelf</p>
-                            <p class="rental-price">$3.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-gta-3">See game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-halo"><img class="game-cover" src="images/games/Halo_-_Combat_Evolved_(XBox_version_-_box_art).jpg" alt="Halo: Combat Evolved cover art" loading="eager"></a>
-                            <h3>Halo: Combat Evolved</h3>
-                            <p class="game-meta">Xbox · 2001</p>
-                            <p class="shelf-status">On the shelf</p>
-                            <p class="rental-price">$3.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-halo">See game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-max-payne"><img class="game-cover" src="images/games/Maxpaynebox.jpg" alt="Max Payne cover art" loading="eager"></a>
-                            <h3>Max Payne</h3>
-                            <p class="game-meta">PC · 2001</p>
-                            <p class="shelf-status">On the shelf</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-max-payne">See game notes</a>
-                        </article>
-                    </div>
-                </section>
+        <!-- About teaser -->
+        <section class="section why-vault" aria-labelledby="why-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">✦</span><h2 id="why-title">WHY PIXEL VAULT?</h2><img class="pixel-art line-art" src="images/pixel-art/Line_2 128x64.png" width="128" height="64" alt=""></div>
+            <div class="why-list">
+                <div><img class="pixel-art why-frame" src="images/pixel-art/Box_1 256x128.png" width="256" height="128" alt=""><h3>PLAY</h3><p>Discover classic games.</p></div>
+                <div><img class="pixel-art why-frame" src="images/pixel-art/Box_2 256x128.png" width="256" height="128" alt=""><h3>PRESERVE</h3><p>Keep gaming history alive.</p></div>
+                <div><img class="pixel-art why-frame" src="images/pixel-art/Box_1 256x128.png" width="256" height="128" alt=""><h3>REMEMBER</h3><p>Revisit the games that mattered.</p></div>
+            </div>
+            <a class="text-link" href="about.html">ABOUT THE PROJECT <img class="pixel-art inline-arrow" src="images/pixel-art/Arrow_4_Small128x128.png" width="128" height="128" alt=""></a>
+        </section>
+    </main>
 
-                <!-- Console notes moved from the old consoles page. -->
-                <section id="systems" class="home-section">
-                    <div class="section-heading">
-                        <h2>Browse by system</h2>
-                        <img src="images/drawings/arrow_3.png" alt="">
-                    </div>
-                    <p>Ask which controllers and memory cards come with your rental.</p>
-                    <ul class="system-list">
-                        <li><a href="games.html#ps1"><strong>PlayStation</strong></a><br>Sony · 1994 · RPGs, stealth, horror, and fighting. Four games.</li>
-                        <li><a href="games.html#ps2"><strong>PlayStation 2</strong></a><br>Sony · 2000 · Horror, city driving, and racing. Three games.</li>
-                        <li><a href="games.html#n64"><strong>Nintendo 64</strong></a><br>Nintendo · 1996 · Four controller ports, if we can find the pads. Two games.</li>
-                        <li><a href="games.html#dreamcast"><strong>Dreamcast</strong></a><br>Sega · 1999 · Arcade games look right at home. Two games.</li>
-                        <li><a href="games.html#xbox"><strong>Xbox</strong></a><br>Microsoft · 2001 · Halo is our Xbox shelf pick. One game.</li>
-                        <li><a href="games.html#pc"><strong>PC</strong></a><br>Windows 95/98/XP era · RPGs and a rainy crime story. Two games.</li>
-                    </ul>
-                </section>
-
-                <!-- Staff pick and the weekly deal -->
-                <section class="home-section two-notes">
-                    <article>
-                        <div class="drawing-frame note-frame">
-                            <img src="images/drawings/square_box_1_taped_note.png" alt="">
-                            <div>
-                                <h2>Tony's pick</h2>
-                                <p><a href="games.html#note-metal-gear-solid"><strong>Metal Gear Solid</strong></a></p>
-                                <p><em>“Read the codec calls.”</em><br>— Tony</p>
-                            </div>
-                        </div>
-                        <img src="images/drawings/employee_pick.png" alt="Employee Pick">
-                        <p>The stealth missions are good, and the story gets a little weird.</p>
-                    </article>
-                    <article>
-                        <div class="drawing-frame note-frame">
-                            <img src="images/drawings/square_box_2_yellow_frame.png" alt="">
-                            <div>
-                                <h2>This weekend</h2>
-                                <p><strong>Rent 2 games, get 1 free.</strong></p>
-                                <p>The free rental is the lowest-priced game.</p>
-                            </div>
-                        </div>
-                        <img src="images/drawings/wow_face_ME.png" alt="">
-                        <details>
-                            <summary>Other deals at the counter</summary>
-                            <ul>
-                                <li>Wednesday: 50% off the second standard rental. The lower-priced game gets the discount.</li>
-                                <li>Horror Night: rent two horror games and take 50 cents off the second one.</li>
-                                <li>Tuesday: one-day PlayStation and N64 rentals cost $1.99.</li>
-                            </ul>
-                            <p>Return all three games together for the three-for-two offer.</p>
-                        </details>
-                    </article>
-                </section>
-
-                <!-- Lists and a real HTML price table -->
-                <section class="home-section shop-news">
-                    <div class="info-panel">
-                        <h2>Most rented this month</h2>
-                        <ol>
-                            <li>Silent Hill 2</li>
-                            <li>Halo: Combat Evolved</li>
-                            <li>Grand Theft Auto III</li>
-                            <li>Metal Gear Solid</li>
-                            <li>Resident Evil 2</li>
-                        </ol>
-                    </div>
-                    <div class="info-panel info-panel-cyan">
-                        <h2>A few house rules</h2>
-                        <ul>
-                            <li>Bring the case back with the disc.</li>
-                            <li>Return it by closing on the due date.</li>
-                            <li>No blowing into cartridges. We have a cleaning kit.</li>
-                            <li>Late fee: $1 per day.</li>
-                        </ul>
-                    </div>
-                    <div class="drawing-frame overdue-frame">
-                        <img src="images/drawings/square_box_3_star_frame.png" alt="">
-                        <div>
-                            <h2>Most overdue</h2>
-                            <p><a href="games.html#note-super-mario-64">Super Mario 64</a></p>
-                            <p>Still out on loan.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="home-section prices">
-                    <img src="images/drawings/face_2.png" alt="">
-                    <div>
-                        <h2>Rental prices</h2>
-                        <table>
-                            <caption>Prices in US dollars</caption>
-                            <thead><tr><th scope="col">Rental</th><th scope="col">1 day</th><th scope="col">3 days</th><th scope="col">7 days</th></tr></thead>
-                            <tbody>
-                                <tr><th scope="row">Standard game</th><td>$1.99</td><td>$2.99</td><td>$4.99</td></tr>
-                                <tr><th scope="row">New release</th><td>$2.99</td><td>$3.99</td><td>$5.99</td></tr>
-                            </tbody>
-                        </table>
-                        <p><small>New-release prices apply to games marked as new on the shelf.</small></p>
-                        <a class="button button-orange" href="about.html#reservation">Ask us to hold a game →</a>
-                    </div>
-                </section>
-
-                <section class="home-section media-preview">
-                    <img src="images/screenshots/gta3.jpg" alt="Grand Theft Auto III street scene" loading="lazy">
-                    <div>
-                        <h2>Media corner</h2>
-                        <p>Watch the game demo space and hear our little jukebox tune.</p>
-                        <a class="button" href="about.html#media">Visit the media corner →</a>
-                    </div>
-                    <img src="images/drawings/face_3.png" alt="">
-                </section>
-            </main>
-
-            <!-- These drawings sit in the purple margins and cross the page edge. -->
-            <img class="margin-doodle margin-right margin-home-face" src="images/drawings/dollar_face.png" alt="">
-            <img class="margin-doodle margin-left margin-home-arrow" src="images/drawings/arrow_wide_extra.png" alt="">
-            <img class="margin-doodle margin-right margin-home-scribble" src="images/drawings/divider_wavy.png" alt="">
-
-            <footer>
-                <img src="images/drawings/divider_wavy.png" alt="" loading="lazy">
-                <p><strong>PIXEL RENTALS</strong> — Games out. Good times in.</p>
-                <p><a href="index.html">Home</a> · <a href="games.html">Games</a> · <a href="about.html">About &amp; reservations</a></p>
-                <p><small>© Pixel Rentals · A fictional neighborhood rental store</small></p>
-                <p><a href="#top">Back to top ↑</a></p>
-            </footer>
-        </div>
-    </body>
+    <!-- Footer -->
+    <footer class="site-footer"><div class="container footer-inner">
+        <a class="footer-brand" href="index.html" aria-label="Pixel Vault home"><img class="pixel-art" src="images/pixel-art/Logo_PixelVault.png" width="256" height="128" alt="Pixel Vault logo"></a>
+        <p>Classic games. Preserved forever.<br><small>School HTML &amp; CSS project.</small></p>
+        <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="games.html">Games</a><a href="about.html">About</a></nav>
+    </div></footer>
+    </div>
+    </div>
+</body>
 </html>

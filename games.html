@@ -1,687 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Games | Pixel Rentals</title>
-    </head>
-    <body class="games-page">
-        <div class="site-shell" id="top">
-            <header class="site-header">
-                <div class="brand-row">
-                    <h1><img src="images/drawings/logo_pixel_rentals.png" alt="Pixel Rentals" loading="eager"></h1>
-                    <div class="brand-note">
-                        <img src="images/drawings/face_1.png" alt="" class="brand-face">
-                        <p><strong>YOUR WEEKEND STARTS HERE.</strong><br>Open since 1996. Ask what is back today.</p>
-                    </div>
-                </div>
-                <nav class="store-nav" aria-label="Main navigation">
-                    <img src="images/drawings/long_box_1_wavy.png" alt="">
-                    <div class="nav-links">
-                        <a href="index.html">Home</a>
-                        <a href="games.html">Games</a>
-                        <a href="about.html">About</a>
-                    </div>
-                    <img src="images/drawings/arrow_curved_extra.png" alt="" class="nav-arrow">
-                </nav>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse classic games and a shelf of pixel-art covers in the Pixel Vault archive.">
+    <title>Games — Pixel Vault</title>
+    <link rel="icon" href="images/pixel-art/Logo_PixelVault.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-background">
+    <div class="edge-left" aria-hidden="true"></div>
+    <div class="edge-right" aria-hidden="true"></div>
+    <div class="page-shell">
 
-            <main>
-                <section class="page-title">
-                    <div class="drawing-frame title-frame">
-                        <img src="images/drawings/long_box_3_ribbon.png" alt="">
-                        <h2>Games on the shelf</h2>
-                    </div>
-                    <p>Real covers from the rental shelf. Click a cover for game tips, then ask at the counter what is back today.</p>
-                </section>
+    <!-- Header -->
+    <header class="site-header container">
+        <a class="brand" href="index.html" aria-label="Pixel Vault home">
+            <img class="pixel-art brand-logo" src="images/pixel-art/Logo_PixelVault.png" width="256" height="128" alt="Pixel Vault handmade logo">
+            <span>Classic games.<br>Preserved forever.</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a class="active" href="games.html" aria-current="page">Games</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
 
-                <!-- Eleven real covers; three other titles remain in the catalogue below. -->
-                <section class="catalog-covers">
-                    <h2>Browse the covers</h2>
-                    <div class="cover-row">
-                        <article class="cover-card">
-                            <a href="games.html#note-resident-evil-2"><img class="game-cover" src="images/games/81Ei9ikAiWL._AC_UF1000,1000_QL80_.jpg" alt="Resident Evil 2 cover art" loading="eager"></a>
-                            <h3>Resident Evil 2</h3>
-                            <p class="game-meta">PlayStation · 1998</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-resident-evil-2">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-metal-gear-solid"><img class="game-cover" src="images/games/Metal-Gear-Solid-NTSC-PSX-FRONT.jpg" alt="Metal Gear Solid cover art" loading="eager"></a>
-                            <h3>Metal Gear Solid</h3>
-                            <p class="game-meta">PlayStation · 1998</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-metal-gear-solid">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-tekken-3"><img class="game-cover" src="images/games/61Xr894A3-L.jpg" alt="Tekken 3 cover art" loading="eager"></a>
-                            <h3>Tekken 3</h3>
-                            <p class="game-meta">PlayStation · 1998</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-tekken-3">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-final-fantasy-vii"><img class="game-cover" src="images/games/Final_Fantasy_VII_Box_Art.jpg" alt="Final Fantasy VII cover art" loading="lazy"></a>
-                            <h3>Final Fantasy VII</h3>
-                            <p class="game-meta">PlayStation · 1997</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-final-fantasy-vii">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-silent-hill-2"><img class="game-cover" src="images/games/Silent_Hill_2.jpg" alt="Silent Hill 2 cover art" loading="lazy"></a>
-                            <h3>Silent Hill 2</h3>
-                            <p class="game-meta">PlayStation 2 · 2001</p>
-                            <p class="rental-price">$3.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-silent-hill-2">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-gta-3"><img class="game-cover" src="images/games/GTA3boxcover.jpg" alt="Grand Theft Auto III cover art" loading="lazy"></a>
-                            <h3>Grand Theft Auto III</h3>
-                            <p class="game-meta">PlayStation 2 · 2001</p>
-                            <p class="rental-price">$3.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-gta-3">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-sonic-adventure-2"><img class="game-cover" src="images/games/Sonic_adv_2_battle_box.png" alt="Sonic Adventure 2 Battle GameCube cover art" loading="lazy"></a>
-                            <h3>Sonic Adventure 2</h3>
-                            <p class="game-meta">Dreamcast · 2001</p>
-                            <p class="edition-note">Pictured: GameCube Battle edition. Our rental is for Dreamcast.</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-sonic-adventure-2">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-tony-hawks-pro-skater-2"><img class="game-cover" src="images/games/Tony_Hawk&#x27;s_Pro_Skater_2_cover.png" alt="Tony Hawk’s Pro Skater 2 PlayStation cover art" loading="lazy"></a>
-                            <h3>Tony Hawk’s Pro Skater 2</h3>
-                            <p class="game-meta">Dreamcast · 2000</p>
-                            <p class="edition-note">Pictured: PlayStation edition. Our rental is for Dreamcast.</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-tony-hawks-pro-skater-2">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-halo"><img class="game-cover" src="images/games/Halo_-_Combat_Evolved_(XBox_version_-_box_art).jpg" alt="Halo: Combat Evolved cover art" loading="lazy"></a>
-                            <h3>Halo: Combat Evolved</h3>
-                            <p class="game-meta">Xbox · 2001</p>
-                            <p class="rental-price">$3.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-halo">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-max-payne"><img class="game-cover" src="images/games/Maxpaynebox.jpg" alt="Max Payne cover art" loading="lazy"></a>
-                            <h3>Max Payne</h3>
-                            <p class="game-meta">PC · 2001</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-max-payne">Read game notes</a>
-                        </article>
-                        <article class="cover-card">
-                            <a href="games.html#note-diablo-ii"><img class="game-cover" src="images/games/Diablo_II_Coverart.png" alt="Diablo II cover art" loading="lazy"></a>
-                            <h3>Diablo II</h3>
-                            <p class="game-meta">PC · 2000</p>
-                            <p class="rental-price">$2.99 <small>/ 3 days</small></p>
-                            <a class="button" href="games.html#note-diablo-ii">Read game notes</a>
-                        </article>
-                    </div>
-                    <h3>More on the shelf</h3>
-                    <ul class="other-games">
-                        <li><a href="#note-gran-turismo-3">Gran Turismo 3: A-Spec</a> · PlayStation 2 · 2001</li>
-                        <li><a href="#note-super-mario-64">Super Mario 64</a> · Nintendo 64 · 1996</li>
-                        <li><a href="#note-goldeneye-007">GoldenEye 007</a> · Nintendo 64 · 1997</li>
-                    </ul>
-                </section>
+    <main id="main" class="container inner-page">
+        <!-- Page introduction -->
+        <section class="page-hero" aria-labelledby="page-title">
+            <div>
+                <p class="eyebrow">THE COLLECTION <span>•</span> 12 CLASSICS <span>•</span> 7 SYSTEMS</p>
+                <h1 id="page-title">BROWSE THE VAULT</h1>
+                <p>Follow a favorite game, jump to a system, or explore the pixel-art covers added to the collection. This small archive is a place to start discovering gaming history.</p>
+            </div>
+            <div class="page-badge">
+                <img class="pixel-art" src="images/pixel-art/Box_3 128x128.png" width="128" height="128" alt="">
+                <span>12<small>CLASSICS</small></span>
+            </div>
+        </section>
 
-                <section class="catalogue">
-                    <div class="section-heading">
-                        <h2>Full rental catalogue</h2>
-                        <img src="images/drawings/arrow_2.png" alt="">
-                    </div>
-                    <p>Jump to a shelf: <a href="#ps1">PlayStation</a> · <a href="#ps2">PlayStation 2</a> · <a href="#n64">Nintendo 64</a> · <a href="#dreamcast">Dreamcast</a> · <a href="#xbox">Xbox</a> · <a href="#pc">PC</a></p>
-                    <p>Prices are for three days. Copies come and go, so check availability at the counter.</p>
-                    <h3 class="shelf-title" id="ps1">PlayStation</h3>
-                    <table class="catalog-table">
-                        <caption>PlayStation rentals</caption>
-                        <thead>
-                            <tr>
-                                <th>Game</th>
-                                <th>Platform</th>
-                                <th>Genre</th>
-                                <th>Year</th>
-                                <th>Players</th>
-                                <th>Rental Price</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#note-resident-evil-2">Resident Evil 2</a></td>
-                                <td>PlayStation</td>
-                                <td>Survival Horror</td>
-                                <td>1998</td>
-                                <td>1</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-metal-gear-solid">Metal Gear Solid</a></td>
-                                <td>PlayStation</td>
-                                <td>Stealth Action</td>
-                                <td>1998</td>
-                                <td>1</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-tekken-3">Tekken 3</a></td>
-                                <td>PlayStation</td>
-                                <td>Fighting</td>
-                                <td>1998</td>
-                                <td>1–2</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-final-fantasy-vii">Final Fantasy VII</a></td>
-                                <td>PlayStation</td>
-                                <td>Role-Playing Game</td>
-                                <td>1997</td>
-                                <td>1</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="7">Copies come and go. Ask at the counter what is back today.</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                    <h3 class="shelf-title" id="ps2">PlayStation 2</h3>
-                    <table class="catalog-table">
-                        <caption>PlayStation 2 rentals</caption>
-                        <thead>
-                            <tr>
-                                <th>Game</th>
-                                <th>Platform</th>
-                                <th>Genre</th>
-                                <th>Year</th>
-                                <th>Players</th>
-                                <th>Rental Price</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#note-silent-hill-2">Silent Hill 2</a></td>
-                                <td>PlayStation 2</td>
-                                <td>Survival Horror</td>
-                                <td>2001</td>
-                                <td>1</td>
-                                <td>$3.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-gta-3">Grand Theft Auto III</a></td>
-                                <td>PlayStation 2</td>
-                                <td>Action</td>
-                                <td>2001</td>
-                                <td>1</td>
-                                <td>$3.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-gran-turismo-3">Gran Turismo 3: A-Spec</a></td>
-                                <td>PlayStation 2</td>
-                                <td>Racing</td>
-                                <td>2001</td>
-                                <td>1–2</td>
-                                <td>$3.99</td>
-                                <td>Available</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="7">Copies come and go. Ask at the counter what is back today.</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                    <h3 class="shelf-title" id="n64">Nintendo 64</h3>
-                    <table class="catalog-table">
-                        <caption>Nintendo 64 rentals</caption>
-                        <thead>
-                            <tr>
-                                <th>Game</th>
-                                <th>Platform</th>
-                                <th>Genre</th>
-                                <th>Year</th>
-                                <th>Players</th>
-                                <th>Rental Price</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#note-super-mario-64">Super Mario 64</a></td>
-                                <td>Nintendo 64</td>
-                                <td>Platform</td>
-                                <td>1996</td>
-                                <td>1</td>
-                                <td>$2.99</td>
-                                <td>Out on loan</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-goldeneye-007">GoldenEye 007</a></td>
-                                <td>Nintendo 64</td>
-                                <td>First-Person Shooter</td>
-                                <td>1997</td>
-                                <td>1–4</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="7">Copies come and go. Ask at the counter what is back today.</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                    <h3 class="shelf-title" id="dreamcast">Sega Dreamcast</h3>
-                    <table class="catalog-table">
-                        <caption>Sega Dreamcast rentals</caption>
-                        <thead>
-                            <tr>
-                                <th>Game</th>
-                                <th>Platform</th>
-                                <th>Genre</th>
-                                <th>Year</th>
-                                <th>Players</th>
-                                <th>Rental Price</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#note-sonic-adventure-2">Sonic Adventure 2</a></td>
-                                <td>Dreamcast</td>
-                                <td>Platform</td>
-                                <td>2001</td>
-                                <td>1–2</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-tony-hawks-pro-skater-2">Tony Hawk’s Pro Skater 2</a></td>
-                                <td>Dreamcast</td>
-                                <td>Sports</td>
-                                <td>2000</td>
-                                <td>1–2</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="7">Copies come and go. Ask at the counter what is back today.</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                    <h3 class="shelf-title" id="xbox">Xbox</h3>
-                    <table class="catalog-table">
-                        <caption>Xbox rentals</caption>
-                        <thead>
-                            <tr>
-                                <th>Game</th>
-                                <th>Platform</th>
-                                <th>Genre</th>
-                                <th>Year</th>
-                                <th>Players</th>
-                                <th>Rental Price</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#note-halo">Halo: Combat Evolved</a></td>
-                                <td>Xbox</td>
-                                <td>First-Person Shooter</td>
-                                <td>2001</td>
-                                <td>1–4</td>
-                                <td>$3.99</td>
-                                <td>Available</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="7">Copies come and go. Ask at the counter what is back today.</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                    <h3 class="shelf-title" id="pc">PC games</h3>
-                    <table class="catalog-table">
-                        <caption>PC games rentals</caption>
-                        <thead>
-                            <tr>
-                                <th>Game</th>
-                                <th>Platform</th>
-                                <th>Genre</th>
-                                <th>Year</th>
-                                <th>Players</th>
-                                <th>Rental Price</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#note-max-payne">Max Payne</a></td>
-                                <td>PC</td>
-                                <td>Action</td>
-                                <td>2001</td>
-                                <td>1</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                            <tr>
-                                <td><a href="#note-diablo-ii">Diablo II</a></td>
-                                <td>PC</td>
-                                <td>Role-Playing Game</td>
-                                <td>2000</td>
-                                <td>1–8</td>
-                                <td>$2.99</td>
-                                <td>Available</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="7">Copies come and go. Ask at the counter what is back today.</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </section>
+        <!-- Jump links -->
+        <nav class="jump-links" aria-label="Browse this page">
+            <a href="#archive">Classic games</a>
+            <a href="#pixel-shelf">Pixel-art shelf</a>
+            <a href="#systems">Systems</a>
+            <a href="#archive-table">Archive table</a>
+        </nav>
 
-                <section class="rental-notes">
-                    <h2>Notes from the game counter</h2>
-                    <p>Each title keeps its original shelf tips, features, and playing steps.</p>
-                    <article class="game-note" id="note-resident-evil-2">
-                        <h3>Resident Evil 2 <small>— PlayStation, 1998 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <p>Leon and Claire reach Raccoon City on a very bad night. Supplies are limited, so sometimes running past a monster is the smart move.</p>
-                            <p><strong>Developer:</strong> Capcom · <strong>Publisher:</strong> Capcom · <strong>Age rating:</strong> Mature (17+)</p>
-                            <h4>Features</h4>
-                            <ul>
-                                <li>Two character stories</li>
-                                <li>Puzzle solving</li>
-                                <li>Classic survival horror</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <p>Keep moving through Raccoon City:</p>
-                            <ol>
-                                <li>Search for useful items</li>
-                                <li>Read documents for clues</li>
-                                <li>Find a route to safety</li>
-                            </ol>
-                        </div>
-                    </article>
+        <!-- Classic games -->
+        <section class="section" id="archive" aria-labelledby="archive-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">★</span><h2 id="archive-title">CLASSIC GAME ARCHIVE</h2><img class="pixel-art line-art" src="images/pixel-art/Line_1 128x64.png" width="128" height="64" alt=""></div>
+            <div class="archive-grid">
+                <article class="archive-card" id="silent-hill-2">
+                    <img src="images/games/silent-hill-2.jpg" width="263" height="379" alt="Silent Hill 2 cover art" loading="lazy">
+                    <h3>Silent Hill 2</h3><p class="game-meta"><span class="tag">PS2</span><span>2001</span></p><p>Survival horror</p>
+                </article>
+                <article class="archive-card" id="grand-theft-auto-iii">
+                    <img src="images/games/grand-theft-auto-iii.jpg" width="280" height="362" alt="Grand Theft Auto III cover art" loading="lazy">
+                    <h3>Grand Theft Auto III</h3><p class="game-meta"><span class="tag">PS2</span><span>2001</span></p><p>Action · open world</p>
+                </article>
+                <article class="archive-card" id="halo-combat-evolved">
+                    <img src="images/games/halo-combat-evolved.jpg" width="272" height="366" alt="Halo: Combat Evolved cover art" loading="lazy">
+                    <h3>Halo: Combat Evolved</h3><p class="game-meta"><span class="tag tag-olive">Xbox</span><span>2001</span></p><p>First-person shooter</p>
+                </article>
+                <article class="archive-card" id="max-payne">
+                    <img src="images/games/max-payne.jpg" width="284" height="350" alt="Max Payne cover art" loading="lazy">
+                    <h3>Max Payne</h3><p class="game-meta"><span class="tag tag-sea">PC</span><span>2001</span></p><p>Third-person action</p>
+                </article>
+                <article class="archive-card" id="metal-gear-solid">
+                    <img src="images/games/metal-gear-solid.png" width="330" height="284" alt="Metal Gear Solid cover art" loading="lazy">
+                    <h3>Metal Gear Solid</h3><p class="game-meta"><span class="tag">PS1</span><span>1998</span></p><p>Stealth action</p>
+                </article>
+                <article class="archive-card" id="ocarina-of-time">
+                    <img src="images/games/ocarina-of-time.jpg" width="330" height="230" alt="Ocarina of Time cover art" loading="lazy">
+                    <h3>Ocarina of Time</h3><p class="game-meta"><span class="tag tag-olive">N64</span><span>1998</span></p><p>Adventure</p>
+                </article>
+                <article class="archive-card" id="chrono-trigger">
+                    <img src="images/games/chrono-trigger.jpg" width="330" height="241" alt="Chrono Trigger cover art" loading="lazy">
+                    <h3>Chrono Trigger</h3><p class="game-meta"><span class="tag tag-olive">SNES</span><span>1995</span></p><p>Role-playing game</p>
+                </article>
+                <article class="archive-card" id="underground-2">
+                    <img src="images/games/underground-2.jpg" width="255" height="390" alt="Need for Speed: Underground 2 cover art" loading="lazy">
+                    <h3>Underground 2</h3><p class="game-meta"><span class="tag">PS2</span><span>2004</span></p><p>Racing</p>
+                </article>
+                <article class="archive-card" id="half-life-2">
+                    <img src="images/games/half-life-2.jpg" width="269" height="370" alt="Half-Life 2 cover art" loading="lazy">
+                    <h3>Half-Life 2</h3><p class="game-meta"><span class="tag tag-sea">PC</span><span>2004</span></p><p>First-person shooter</p>
+                </article>
+                <article class="archive-card" id="resident-evil-4">
+                    <img src="images/games/resident-evil-4.jpg" width="259" height="345" alt="Resident Evil 4 cover art" loading="lazy">
+                    <h3>Resident Evil 4</h3><p class="game-meta"><span class="tag tag-olive">GameCube</span><span>2005</span></p><p>Action horror</p>
+                </article>
+                <article class="archive-card" id="final-fantasy-x">
+                    <img src="images/games/final-fantasy-x.jpg" width="256" height="374" alt="Final Fantasy X cover art" loading="lazy">
+                    <h3>Final Fantasy X</h3><p class="game-meta"><span class="tag">PS2</span><span>2001</span></p><p>Role-playing game</p>
+                </article>
+                <article class="archive-card" id="shadow-of-the-colossus">
+                    <img src="images/games/shadow-of-the-colossus.jpg" width="267" height="373" alt="Shadow of the Colossus cover art" loading="lazy">
+                    <h3>Shadow of the Colossus</h3><p class="game-meta"><span class="tag">PS2</span><span>2005</span></p><p>Adventure</p>
+                </article>
+            </div>
+        </section>
 
-                    <article class="game-note" id="note-metal-gear-solid">
-                        <h3>Metal Gear Solid <small>— PlayStation, 1998 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <p>Play as Solid Snake, keep an eye on the radar, and try not to walk straight into a guard. The cardboard box is more useful than it looks.</p>
-                            <p><strong>Developer:</strong> Konami Computer Entertainment Japan · <strong>Publisher:</strong> Konami · <strong>Age rating:</strong> Mature (17+)</p>
-                            <h4>Features</h4>
-                            <ul>
-                                <li>Stealth-based missions</li>
-                                <li>Memorable boss encounters</li>
-                                <li>A long story told through radio calls</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <p>Complete the mission:</p>
-                            <ol>
-                                <li>Use cover and watch patrols</li>
-                                <li>Collect equipment</li>
-                                <li>Reach the target undetected</li>
-                            </ol>
-                        </div>
-                    </article>
+        <!-- Supplied pixel-art covers -->
+        <section class="section" id="pixel-shelf" aria-labelledby="shelf-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">✦</span><h2 id="shelf-title">PIXEL-ART SHELF</h2><img class="pixel-art line-art" src="images/pixel-art/Line_2 128x64.png" width="128" height="64" alt=""></div>
+            <p class="section-intro">A small showcase for the pixel-art game covers supplied for this project.</p>
+            <div class="pixel-shelf">
+                <article><img class="pixel-art" src="images/games/atcpscgjiaif1.gif" width="700" height="895" alt="Thimbleweed Park pixel-art cover" loading="lazy"><h3>Thimbleweed Park</h3></article>
+                <article id="stardew-valley"><img class="pixel-art" src="images/games/images.jpg" width="480" height="640" alt="Stardew Valley pixel-art cover" loading="lazy"><h3>Stardew Valley</h3></article>
+                <article><img class="pixel-art" src="images/games/8a859444543767.58164ad0ea904.png" width="621" height="890" alt="Blade Kickers pixel-art cover" loading="lazy"><h3>Blade Kickers</h3></article>
+                <article><img class="pixel-art" src="images/games/Pixel-Art-Portfolio-Cover-Space-Adventure.png" width="1920" height="1080" alt="Picture Cross Color pixel-art cover" loading="lazy"><h3>Picture Cross Color</h3></article>
+            </div>
+        </section>
 
-                    <article class="game-note" id="note-tekken-3">
-                        <h3>Tekken 3 <small>— PlayStation, 1998 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>A good-sized roster to pick from.</li>
-                                <li>One-on-one fights with plenty of different moves.</li>
-                                <li>Practice mode is useful before challenging a friend.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Choose a fighter you like.</li>
-                                <li>Try a few moves from the list.</li>
-                                <li>Plug in a second controller for versus mode.</li>
-                            </ol>
-                        </div>
-                    </article>
+        <!-- Browse by system -->
+        <section class="section" id="systems" aria-labelledby="systems-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">✣</span><h2 id="systems-title">BROWSE BY SYSTEM</h2><img class="pixel-art line-art" src="images/pixel-art/Line_3 128x64.png" width="128" height="64" alt=""></div>
+            <div class="system-index">
+                <article id="playstation"><h3>PlayStation</h3><ul><li><a href="#metal-gear-solid">Metal Gear Solid</a></li></ul></article>
+                <article id="ps2"><h3>PlayStation 2</h3><ul><li><a href="#silent-hill-2">Silent Hill 2</a></li><li><a href="#grand-theft-auto-iii">Grand Theft Auto III</a></li><li><a href="#underground-2">Underground 2</a></li><li><a href="#final-fantasy-x">Final Fantasy X</a></li><li><a href="#shadow-of-the-colossus">Shadow of the Colossus</a></li></ul></article>
+                <article id="xbox"><h3>Xbox</h3><ul><li><a href="#halo-combat-evolved">Halo: Combat Evolved</a></li></ul></article>
+                <article id="pc"><h3>PC</h3><ul><li><a href="#max-payne">Max Payne</a></li><li><a href="#half-life-2">Half-Life 2</a></li><li><a href="#pixel-shelf">Pixel-art shelf</a></li></ul></article>
+                <article id="n64"><h3>Nintendo 64</h3><ul><li><a href="#ocarina-of-time">Ocarina of Time</a></li></ul></article>
+                <article id="snes"><h3>SNES</h3><ul><li><a href="#chrono-trigger">Chrono Trigger</a></li></ul></article>
+                <article id="gamecube"><h3>GameCube</h3><ul><li><a href="#resident-evil-4">Resident Evil 4</a></li></ul></article>
+            </div>
+        </section>
 
-                    <article class="game-note" id="note-final-fantasy-vii">
-                        <h3>Final Fantasy VII <small>— PlayStation, 1997 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>A long story with turn-based battles.</li>
-                                <li>Materia lets you change how your party fights.</li>
-                                <li>There are plenty of side roads if you need a break from saving the world.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Follow the story out of Midgar.</li>
-                                <li>Try different Materia in your party.</li>
-                                <li>Save often; the rental copy will not remember for you.</li>
-                            </ol>
-                        </div>
-                    </article>
+        <!-- Real HTML archive table -->
+        <section class="section" id="archive-table" aria-labelledby="table-title">
+            <div class="section-heading"><span class="heading-star" aria-hidden="true">▣</span><h2 id="table-title">GAME ARCHIVE TABLE</h2><img class="pixel-art line-art" src="images/pixel-art/Line_1 128x64.png" width="128" height="64" alt=""></div>
+            <p class="section-intro">A quick reference for ten highlights from the full collection.</p>
+            <div class="table-wrap"><table>
+                <thead><tr><th scope="col">Game</th><th scope="col">System</th><th scope="col">Year</th><th scope="col">Genre</th><th scope="col">Developer</th></tr></thead>
+                <tbody>
+                    <tr><td>Silent Hill 2</td><td>PS2</td><td>2001</td><td>Survival horror</td><td>Team Silent</td></tr>
+                    <tr><td>Grand Theft Auto III</td><td>PS2</td><td>2001</td><td>Action adventure</td><td>DMA Design</td></tr>
+                    <tr><td>Halo: Combat Evolved</td><td>Xbox</td><td>2001</td><td>First-person shooter</td><td>Bungie</td></tr>
+                    <tr><td>Max Payne</td><td>PC</td><td>2001</td><td>Third-person shooter</td><td>Remedy Entertainment</td></tr>
+                    <tr><td>Metal Gear Solid</td><td>PS1</td><td>1998</td><td>Stealth action</td><td>Konami</td></tr>
+                    <tr><td>Ocarina of Time</td><td>N64</td><td>1998</td><td>Adventure</td><td>Nintendo EAD</td></tr>
+                    <tr><td>Chrono Trigger</td><td>SNES</td><td>1995</td><td>Role-playing game</td><td>Square</td></tr>
+                    <tr><td>Underground 2</td><td>PS2</td><td>2004</td><td>Racing</td><td>EA Black Box</td></tr>
+                    <tr><td>Half-Life 2</td><td>PC</td><td>2004</td><td>First-person shooter</td><td>Valve</td></tr>
+                    <tr><td>Resident Evil 4</td><td>GameCube</td><td>2005</td><td>Action horror</td><td>Capcom</td></tr>
+                </tbody>
+            </table></div>
+        </section>
+    </main>
 
-                    <article class="game-note" id="note-silent-hill-2">
-                        <h3>Silent Hill 2 <small>— PlayStation 2, 2001 · $3.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <p>James follows a letter into a foggy town. Bring some patience; the map is more useful than it looks.</p>
-                            <p><strong>Developer:</strong> Team Silent · <strong>Publisher:</strong> Konami · <strong>Age rating:</strong> Mature (17+)</p>
-                            <h4>Features</h4>
-                            <ul>
-                                <li>Walk the foggy streets and check your map</li>
-                                <li>Puzzles and clues</li>
-                                <li>Listen for sounds that warn you something is nearby</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <p>Explore the town:</p>
-                            <ol>
-                                <li>Read the map and conserve supplies</li>
-                                <li>Investigate places named in the letter</li>
-                                <li>Solve puzzles and discover what happened</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-gta-3">
-                        <h3>Grand Theft Auto III <small>— PlayStation 2, 2001 · $3.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <p>Liberty City is big, and the radio keeps the drives from getting quiet. Watch your wanted level before heading back to the garage.</p>
-                            <p><strong>Developer:</strong> DMA Design · <strong>Publisher:</strong> Rockstar Games · <strong>Age rating:</strong> Mature (17+)</p>
-                            <h4>Features</h4>
-                            <ul>
-                                <li>Drive around Liberty City</li>
-                                <li>Find the next job on the map</li>
-                                <li>Radio stations</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <p>Start with a safehouse:</p>
-                            <ol>
-                                <li>Visit a safehouse</li>
-                                <li>Choose a mission</li>
-                                <li>Follow the objective on your map</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-gran-turismo-3">
-                        <h3>Gran Turismo 3: A-Spec <small>— PlayStation 2, 2001 · $3.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>Start in Arcade mode if you just want to race.</li>
-                                <li>There are cars to unlock and tune.</li>
-                                <li>A second controller makes the races more fun.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Choose a car that handles well for you.</li>
-                                <li>Brake before the corner, not in the middle of it.</li>
-                                <li>Ask before borrowing a memory card.</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-super-mario-64">
-                        <h3>Super Mario 64 <small>— Nintendo 64, 1996 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <p>Mario gets into the castle by jumping into paintings. Look behind things and around corners for Power Stars.</p>
-                            <p><strong>Developer:</strong> Nintendo EAD · <strong>Publisher:</strong> Nintendo · <strong>Age rating:</strong> Everyone</p>
-                            <h4>Features</h4>
-                            <ul>
-                                <li>Big rooms to poke around in</li>
-                                <li>Power Star challenges</li>
-                                <li>Familiar faces around the castle</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <p>For your first few stars:</p>
-                            <ol>
-                                <li>Enter a painting</li>
-                                <li>Explore and complete a challenge</li>
-                                <li>Return to the castle with your Star</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-goldeneye-007">
-                        <h3>GoldenEye 007 <small>— Nintendo 64, 1997 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>Check the mission list before charging ahead.</li>
-                                <li>Split-screen is best with a second controller.</li>
-                                <li>The guards are not always looking the way you expect.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Choose a mission and read the objectives.</li>
-                                <li>Look around before you enter a room.</li>
-                                <li>Try multiplayer if somebody else is over.</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-sonic-adventure-2">
-                        <h3>Sonic Adventure 2 <small>— Dreamcast, 2001 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>Two teams, with different kinds of levels.</li>
-                                <li>Sonic levels are about speed; Knuckles searches for pieces.</li>
-                                <li>The Chao Garden is there if you have time to spare.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Pick Hero or Dark to start.</li>
-                                <li>Follow the on-screen prompts for each character.</li>
-                                <li>Take your time in the garden between levels.</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-tony-hawks-pro-skater-2">
-                        <h3>Tony Hawk’s Pro Skater 2 <small>— Dreamcast, 2000 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>Career mode for goals and quick runs.</li>
-                                <li>Build a combo, but remember to land it.</li>
-                                <li>Free Skate is good for learning a new park.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Pick a skater and take a look around the park.</li>
-                                <li>Try a few tricks and link them into a combo.</li>
-                                <li>Land before the timer runs out.</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-halo">
-                        <h3>Halo: Combat Evolved <small>— Xbox, 2001 · $3.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <p>The campaign takes you to a ring-shaped world. If someone else is over, try a split-screen match after the first mission.</p>
-                            <p><strong>Developer:</strong> Bungie · <strong>Publisher:</strong> Microsoft Game Studios · <strong>Age rating:</strong> Mature (17+)</p>
-                            <h4>Features</h4>
-                            <ul>
-                                <li>A full campaign to play through</li>
-                                <li>Split-screen multiplayer</li>
-                                <li>Strange ring world, lots of open space</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <p>Getting started:</p>
-                            <ol>
-                                <li>Learn the controls</li>
-                                <li>Follow your squad</li>
-                                <li>Reach each mission objective</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-max-payne">
-                        <h3>Max Payne <small>— PC, 2001 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>A rainy New York crime story.</li>
-                                <li>The slow-motion move is handy when a room gets busy.</li>
-                                <li>Ammo goes quickly, so look around between fights.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Read the comic panels; they carry the story.</li>
-                                <li>Use cover and watch your ammo.</li>
-                                <li>Save when you find a phone.</li>
-                            </ol>
-                        </div>
-                    </article>
-
-                    <article class="game-note" id="note-diablo-ii">
-                        <h3>Diablo II <small>— PC, 2000 · $2.99 for 3 days</small></h3>
-                        <div class="note-text">
-                            <h4>What to try</h4>
-                            <ul>
-                                <li>Pick a character class before heading out.</li>
-                                <li>Explore dungeons and collect better gear.</li>
-                                <li>Keep an eye on your health; the road back is long.</li>
-                            </ul>
-                            <h4>How to play</h4>
-                            <ol>
-                                <li>Choose a character and set up your skills.</li>
-                                <li>Click monsters to fight and items to pick them up.</li>
-                                <li>Save your progress before returning the disc.</li>
-                            </ol>
-                        </div>
-                    </article>
-                </section>
-            </main>
-
-            <!-- These drawings sit in the purple margins and cross the page edge. -->
-            <img class="margin-doodle margin-left margin-games-arrow" src="images/drawings/arrow_1.png" alt="">
-            <img class="margin-doodle margin-right margin-games-face" src="images/drawings/dollar_face.png" alt="">
-            <img class="margin-doodle margin-left margin-games-scribble" src="images/drawings/divider_wavy.png" alt="">
-
-            <footer>
-                <img src="images/drawings/divider_wavy.png" alt="" loading="lazy">
-                <p><strong>PIXEL RENTALS</strong> — Games out. Good times in.</p>
-                <p><a href="index.html">Home</a> · <a href="games.html">Games</a> · <a href="about.html">About &amp; reservations</a></p>
-                <p><small>© Pixel Rentals · A fictional neighborhood rental store</small></p>
-                <p><a href="#top">Back to top ↑</a></p>
-            </footer>
-        </div>
-    </body>
+    <!-- Footer -->
+    <footer class="site-footer"><div class="container footer-inner">
+        <a class="footer-brand" href="index.html" aria-label="Pixel Vault home"><img class="pixel-art" src="images/pixel-art/Logo_PixelVault.png" width="256" height="128" alt="Pixel Vault logo"></a>
+        <p>Classic games. Preserved forever.<br><small>School HTML &amp; CSS project.</small></p>
+        <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="games.html">Games</a><a href="about.html">About</a></nav>
+    </div></footer>
+    </div>
+    </div>
+</body>
 </html>
